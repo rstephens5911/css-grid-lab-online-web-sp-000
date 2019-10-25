@@ -9,7 +9,7 @@ body {
   width: 100vw;
   /* your properties here */
   display: grid;
-  grid-template: auto / 1fr 1fr 1fr;
+  grid-template-rows: [hearder-start] 1fr [header-end] repeat(auto, 1fr);
   grid-gap: 5px;
   /* justify-items: center; */
   /* align-items: center; */
